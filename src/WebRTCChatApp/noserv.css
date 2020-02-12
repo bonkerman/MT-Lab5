@@ -17,3 +17,10 @@ div.info  {position:absolute;right:0;top:0;padding:5px 18px;}
 div.other {color: #0060A0;float:left;padding:5px 18px;background:#FAFAFA;border-radius:8px;}
 div.me    {color: #EB088C;float:right;padding:5px 18px;background:#F4FAFF;border-radius:8px;}
 span.who  {display: inline-block;margin-right:5px;width:30px;text-align:center;display:none;}
+video {
+  --width: 100%;
+  width: var(--width);
+  height: calc(var(--width) * 0.75);
+  margin: 0 0 20px 0;
+  vertical-align: top;
+}
